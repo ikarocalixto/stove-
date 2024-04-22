@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.stove {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.burners {
+    margin: 20px;
+}
+
+.burner {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#ovenLamp, .oven-window {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.oven-window {
+    background-color: #ccc;
+    display: block;
+    color: black;
+    text-align: center;
+    border: 2px solid #666;
+}

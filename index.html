@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stove Simulation</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="stove">
+        <h1>Interactive Stove Controller</h1>
+        <div class="burners">
+            <button class="burner" id="burner0" style="background-color: red;">Toggle Red Burner</button>
+            <button class="burner" id="burner1" style="background-color: blue;">Toggle Blue Burner</button>
+            <button class="burner" id="burner2" style="background-color: green;">Toggle Green Burner</button>
+            <button class="burner" id="burner3" style="background-color: yellow;">Toggle Yellow Burner</button>
+        </div>
+        <div class="oven-controls">
+            <button id="ovenLamp">Toggle Oven Lamp</button>
+            <div class="oven-window" style=" height: 100px;">Oven Window</div>
+        </div>
+        <div class="stove-details">
+            <p>Color: Stainless Steel</p>
+            <p>Dimensions: 30x30x36 inches</p>
+            <p>Brand: GenericBrand</p>
+        </div>
+    </div>
+    <script src="src/index.js" type="module"></script>
+</body>
+</html>
